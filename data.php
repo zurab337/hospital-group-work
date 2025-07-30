@@ -128,4 +128,36 @@ $imgforgetintouch = [
 ];
  
 
+$intoinfo = [
+    [
+        'img1' => './images/logo.png',
+        'firsttext' => 'Subscribe',
+        'secondtext' => 'Address',
+        'thirdtext' => 'Location',
+        'fourthtext' => 'Call +01 1234567890',
+        'gmail' => 'demo@gmail.com',
+        'fifthtext' => 'Useful link',
+        'sixthtext' => 'Home',
+        'seventhtext' => 'About',
+        'eighttext' => 'Treatment',
+        'ninthtext' => 'Doctors',
+        'tenthtext' => 'Testimonial',
+        'eleventhtext' => 'Contact us',
+        'twevethtext' => 'LATEST POSTS',
+        'img2' => './images/post1.jpg',
+        'mecametetext' => 'Normal distribution',
+        'img3' => './images/post2.jpg',
+        'metotxmetetext' => 'News',
+        'img4' => './images/post3.jpg',
+        'img5' => './images/post4.png',
+
+    ]
+];
+
+$footerinfo = [
+    [
+        'firsttext' => ' All Rights Reserved By ',
+        'secondtext' => 'Free Html Templates',
+    ]
+]
 ?>
