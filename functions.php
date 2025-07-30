@@ -184,5 +184,73 @@ function slider($slides) {
     }
 };
 
+function books($books) {
+    foreach ($books as $book) {
+        echo '
+        <section class="book_section layout_padding">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <form action="answer.php" method="POST">
+                  <h4>' . htmlspecialchars($book['firsttext']) . '<span>' . htmlspecialchars($book['secondtext']) . '</span></h4>
+                  
+                  <div class="form-row">
+                    <div class="form-group col-lg-4">
+                      <label for="inputPatientName">' . htmlspecialchars($book['firstlabel']) . '</label>
+                      <input type="text" class="form-control" id="inputPatientName" placeholder="" name="patient_name">
+                    </div>
+
+                    <div class="form-group col-lg-4">
+                      <label for="inputDoctorName">' . htmlspecialchars($book['secondlabel']) . '</label>
+                      <select name="doctor_name" class="form-control wide" id="inputDoctorName">
+                        <option value="' . htmlspecialchars($book['firstinput']) . '">' . htmlspecialchars($book['firstinput']) . '</option>
+                        <option value="' . htmlspecialchars($book['secondinput']) . '">' . htmlspecialchars($book['secondinput']) . '</option>
+                        <option value="' . htmlspecialchars($book['thirdinput']) . '">' . htmlspecialchars($book['thirdinput']) . '</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group col-lg-4">
+                      <label for="inputDepartmentName">' . htmlspecialchars($book['thirdlabel']) . '</label>
+                      <select class="form-control wide" id="inputDepartmentName" name="department_name">
+                        <option value="' . htmlspecialchars($book['depname1']) . '">' . htmlspecialchars($book['depname1']) . '</option>
+                        <option value="' . htmlspecialchars($book['depname2']) . '">' . htmlspecialchars($book['depname2']) . '</option>
+                        <option value="' . htmlspecialchars($book['depname3']) . '">' . htmlspecialchars($book['depname3']) . '</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group col-lg-4">
+                      <label for="inputPhone">' . htmlspecialchars($book['fourthlabel']) . '</label>
+                      <input type="number" class="form-control" id="inputPhone" name="phone" placeholder="XXXXXXXXXX">
+                    </div>
+
+                    <div class="form-group col-lg-4">
+                      <label for="inputSymptoms">' . htmlspecialchars($book['fifthlabel']) . '</label>
+                      <input type="text" class="form-control" id="inputSymptoms" name="symptoms" placeholder="">
+                    </div>
+
+                    <div class="form-group col-lg-4">
+                      <label for="inputDate">' . htmlspecialchars($book['sixthlabel']) . '</label>
+                      <div class="input-group date" id="inputDate" data-date-format="mm-dd-yyyy">
+                        <input type="text" class="form-control" name="date" readonly>
+                        <span class="input-group-addon date_icon">
+                          <i class="fa fa-calendar" aria-hidden="true"></i>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="btn-box">
+                    <button type="submit" class="btn">' . htmlspecialchars($book['seventhlabel']) . '</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>';
+    }
+}
+
 
 ?>
