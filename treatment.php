@@ -1,3 +1,8 @@
+<?php
+include ("data.php");
+include ("functions.php");
+?>
+
 <!DOCTYPE html>
 <html>
 
