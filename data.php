@@ -88,5 +88,19 @@ $treatinfo = [
     ]
 ];
 
+$doctorsinfo = [
+    [
+        'firsttext' => 'Our ',
+        'secondtext' => 'Doctors',
+        'img1' => './images/team1.jpg',
+        'thirdtext' => 'Hennry',
+        'fourthtext' => 'MBBS',
+        'img2' => './images/team2.jpg',
+        'fifthtext' => 'Jenni',
+        'img3' => './images/team3.jpg',
+        'sixthtext' => 'Morco',
+    ]
+];
+ 
 
 ?>
