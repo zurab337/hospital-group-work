@@ -565,44 +565,44 @@ function client($clients){
 
 
 function getintouch($getintouchs) {
-    foreach ($getintouchs as $getintouch) {
-        echo '
-        <section class="contact_section layout_padding-bottom">
-            <div class="container">
-                <div class="heading_container">' .
-                    '<h2>' . $getintouch['text'] . '</h2>' .
-                '</div>
-                <div class="row">
-                    <div class="col-md-7">
-                        <div class="form_container">
-                            <form action="submitted.php">
-                                <div>
-                                    <input type="text" placeholder="'.$getintouch['fullname'].'" />
-                                </div>
-                                <div>
-                                    <input type="email" placeholder="'.$getintouch['Email'].'" />
-                                </div>
-                                <div>
-                                    <input type="text" placeholder="'.$getintouch['number'].'" />
-                                </div>
-                                <div>
-                                    <input type="text" class="message-box" placeholder="'.$getintouch['message'].'" />
-                                </div>
-                                <div class="btn_box">' .
-                                    '<button>' .$getintouch['button'] . '</button>' .
-                                '</div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="img-box">
-                            <img src="' . $getintouch['image'] . '" alt="Contact Image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>';
-    }
+   foreach ($getintouchs as $getintouch) {
+     echo '
+  <section class="contact_section layout_padding-bottom">
+   <div class="container">
+  <div class="heading_container">' .
+   '<h2>' . $getintouch['text'] . '</h2>' .
+   '</div>
+   <div class="row">
+   <div class="col-md-7">
+   <div class="form_container">
+   <form action="submitted.php">
+   <div>
+   <input type="text" placeholder="'.$getintouch['fullname'].'" />
+   </div>
+   <div>
+   <input type="email" placeholder="'.$getintouch['Email'].'" />
+   </div>
+   <div>
+   <input type="text" placeholder="'.$getintouch['number'].'" />
+   </div>
+   <div>
+   <input type="text" class="message-box" placeholder="'.$getintouch['message'].'" />
+   </div>
+   <div class="btn_box">' .
+  '<button>' .$getintouch['button'] . '</button>' .
+  '</div>
+   </form>
+   </div>
+   </div>
+  <div class="col-md-5">
+   <div class="img-box">
+   <img src="' . $getintouch['image'] . '" alt="Contact Image">
+  </div>
+   </div>
+  </div>
+   </div>
+  </section>';
+   }
 };
   
 function infoinfo($infos){

@@ -116,15 +116,15 @@ $clientsinfo = [
 ];
 
 $imgforgetintouch = [
-    [
-        'image' => './images/contact-img.jpg',
-        'text' => 'GET IN TOUCH',
-        'fullname' => 'Full Name',
-        'Email' => 'Email',
-        'number' => 'Phone Number',
-        'message' => 'Message',
-        'button' => 'SEND',
-    ]
+    [
+         'image' => './images/contact-img.jpg',
+         'text' => 'GET IN TOUCH',
+         'fullname' => 'Full Name',
+         'Email' => 'Email',
+        'number' => 'Phone Number',
+         'message' => 'Message',
+         'button' => 'SEND',
+    ]
 ];
  
 
