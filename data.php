@@ -20,4 +20,19 @@ $bottomnavs = [
         'signup' => ' SIGN UP',
     ]
 ];
+
+$slider = [
+    [
+        'dot_desing' => './images/dots.png',
+        'firsttext' => 'Mico',
+        'secondtext' => 'Hospital',
+        'thirdtext' => ' when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to',
+        'button' => 'Contact us',
+        'sliderimg' => './images/slider-img.jpg',
+        'prevpng' => './images/prev.png',
+        'nextpng' => './images/next.png'
+    ]
+];
+
+
 ?>
