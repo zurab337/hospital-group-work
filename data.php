@@ -114,6 +114,18 @@ $clientsinfo = [
         'eighttext' => "Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy, editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various",
     ]
 ];
+
+$imgforgetintouch = [
+    [
+        'image' => './images/contact-img.jpg',
+        'text' => 'GET IN TOUCH',
+        'fullname' => 'Full Name',
+        'Email' => 'Email',
+        'number' => 'Phone Number',
+        'message' => 'Message',
+        'button' => 'SEND',
+    ]
+];
  
 
 ?>
