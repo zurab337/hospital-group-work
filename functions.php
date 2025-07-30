@@ -252,5 +252,35 @@ function books($books) {
     }
 }
 
+function about($abouts){
+    foreach($abouts as $about){
+    echo    '<section class="about_section">' .
+    '<div class="container  ">
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">' .
+            '<img src="'.$about['image'].'" alt="">' .
+          '</div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>' .
+                $about['firsttext'] . '<span>' . $about['secondtext'] .'</span>' .
+              '</h2>
+            </div>
+            <p>' .
+             $about['thirdtext'] .
+            '</p>' .
+            '<a href="">' .
+              $about['fourthtext'] .
+            '</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>';
+   }
+};
 
 ?>
