@@ -34,5 +34,25 @@ $slider = [
     ]
 ];
 
+$booksinfo = [
+    [
+        'firsttext' => 'BOOK',
+        'secondtext' => 'APPOINTMENT',
+        'firstlabel' => 'Patient Name',
+        'secondlabel' => "Doctor's Name",
+        'firstinput' => 'Normal distribution',
+        'secondinput' => 'Gela gafrindashvili',
+        'thirdinput' => 'Jorjik vajkacishvili',
+        'thirdlabel' => "Department's Name",
+        'depname1' => 'Normal distribution',
+        'depname2' => 'Rustavis filiali',
+        'depname3' => 'Tbilisis filiali',
+        'fourthlabel' => 'Phone Number',
+        'fifthlabel' => 'Symptoms',
+        'sixthlabel' => 'Choose Date ',
+        'seventhlabel' => 'Submit Now',
+    ]
+];
+
 
 ?>
