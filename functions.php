@@ -283,4 +283,95 @@ function about($abouts){
    }
 };
 
+function treatment($treatments){
+    foreach($treatments as $treatment) {
+    echo    '<section class="treatment_section layout_padding">
+    <div class="side_img">
+      <img src=" ' . $treatment['img'] . '" alt="">
+    </div>
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>' .
+          $treatment['firsttext'] . '<span>' .$treatment['secondtext']. '</span>' .
+        '</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="box ">
+            <div class="img-box">
+              <img src=" ' . $treatment['img2'] . ' " alt="">
+            </div>
+            <div class="detail-box">
+              <h4>' .
+                $treatment['thirdtext'] .
+              '</h4>
+              <p>' .
+              $treatment['fourthtext']  .
+              '</p>
+              <a href="">'.
+                $treatment['fifthtext'].
+              '</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box ">
+            <div class="img-box">
+              <img src=" ' . $treatment['img3'] . ' " alt="">
+            </div>
+            <div class="detail-box">
+              <h4>' .
+                $treatment['sixthtext'] .
+              '</h4>
+              <p>' .
+                $treatment['seventhtext'] .
+                '</p>
+              <a href="">'.
+                $treatment['eighttext']. 
+              '</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box ">
+            <div class="img-box">
+              <img src=" ' . $treatment['img4'] . ' " alt="">
+            </div>
+            <div class="detail-box">
+              <h4>' .
+                $treatment['tenthtext'] .
+              '</h4>
+              <p>' .
+               $treatment['eleventhtext'] .
+              '</p>
+              <a href=""> '.
+                $treatment['twelvetext'] .
+              '</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box ">
+            <div class="img-box">
+              <img src=" ' . $treatment['img5'] . '" alt="">
+            </div>
+            <div class="detail-box">
+              <h4> ' .
+                $treatment['therteentext'].
+              '</h4>
+              <p>' .
+                $treatment['fourthteenthtext'] .
+              '</p>
+              <a href="">'.
+                $treatment['fifthteentext'] .
+              '</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>';
+    }
+};
+
 ?>

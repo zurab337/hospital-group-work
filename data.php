@@ -64,5 +64,29 @@ $aboutinfo = [
     ]
 ];
 
+$treatinfo = [
+    [
+        'img' => './images/treatment-side-img.jpg',
+        'firsttext' => 'Hospital ',
+        'secondtext' => 'Treatment',
+        'img2' => './images/t1.png',
+        'thirdtext' => 'Nephrologist Care',
+        'fourthtext' => "alteration in some form, by injected humour, or randomised words which don't look even slightly e sure there isn't anything",
+        'fifthtext' => 'Read More',
+        'img3' => './images/t2.png',
+        'sixthtext' => 'Eye Care',
+        'seventhtext' => "alteration in some form, by injected humour, or randomised words which don't look even slightly e sure there isn't anything",
+        'eighttext' => 'Read More',
+        'img4' => './images/t3.png',
+        'tenthtext' => 'Pediatrician Clinic',
+        'eleventhtext' => "alteration in some form, by injected humour, or randomised words which don't look even slightly e sure there isn't anything",
+        'twelvetext' => 'Read More',
+        'img5' => './images/t4.png',
+        'therteentext' => 'Parental Care',
+        'fourthteenthtext' => "alteration in some form, by injected humour, or randomised words which don't look even slightly e sure there isn't anything",
+        'fifthteentext' => 'Read More',
+    ]
+];
+
 
 ?>
