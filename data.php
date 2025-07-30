@@ -54,5 +54,15 @@ $booksinfo = [
     ]
 ];
 
+$aboutinfo = [
+    [
+        'image' => './images/about-img.jpg',
+        'firsttext' => 'About ',
+        'secondtext' => 'Hospital',
+        'thirdtext' => "has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors",
+        'fourthtext' => 'Read More',
+    ]
+];
+
 
 ?>
